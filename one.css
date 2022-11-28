@@ -13,25 +13,25 @@ h4 {
     color: rgb(24, 26, 24);
 }
 
-.maincontainer {
+.maincontainer{
     background-color: rgb(15, 220, 18);
     height: 200px;
 }
 
 .card {
-    text-align: center;
-    height: 190px;
+    text-align: justify;
+    height: 210px;
     width: 150px;
     display: inline-block;
     background-color: rgb(23, 191, 191);
     margin: -1px;
-    padding: 10px;
+    padding: 10px; 
 
 }
 
 .two {
-    text-align: center;
-    height: 190px;
+    text-align: justify;
+    /* height: 200px; */
     width: 150px;
     display: inline-block;
     background-color: rgb(145, 17, 17);
