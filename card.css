@@ -1,0 +1,84 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: rgb(20, 19, 19);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.Maincontainer {
+    height: 360px;
+
+}
+
+.one {
+    display: inline-block;
+    color: black;
+    width: 250px;
+    height: 350px;
+    background-color: bisque;
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}
+
+.two {
+    display: inline-block;
+    color: rgb(11, 11, 11);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(117, 117, 55);
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}
+
+.three {
+    display: inline-block;
+    color: rgb(11, 11, 11);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(117, 117, 55);
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}
+
+.four {
+    display: inline-block;
+    color: rgb(11, 11, 11);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(117, 117, 55);
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}
+.five {
+    display: inline-block;
+    color: rgb(11, 11, 11);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(117, 117, 55);
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}
+.six {
+    display:inline-block;
+    color: rgb(11, 11, 11);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(117, 117, 55);
+    overflow: scroll;
+    margin: 2%;
+    text-align: center;
+    padding: 2px;
+}

@@ -1,0 +1,58 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+    letter-spacing: 3px;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(24, 26, 24);
+}
+
+.Maincontainer {
+    /* display: block; */
+    font-size: 20px;
+    margin: auto;
+
+}
+
+.card {
+    display: inline-block;
+    height: 350px;
+    background-color: rgb(159, 69, 69);
+    width: 250px;
+    text-align: center;
+}
+
+.two {
+
+    background-color: rgb(58, 110, 87);
+
+
+
+
+}
+
+#big {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+.div {
+    background-color: aquamarine;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+
+
+}
