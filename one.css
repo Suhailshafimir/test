@@ -13,46 +13,40 @@ h4 {
     color: rgb(24, 26, 24);
 }
 
-.Maincontainer {
-    /* display: block; */
-    font-size: 20px;
-    margin: auto;
-
+.maincontainer {
+    background-color: rgb(15, 220, 18);
+    height: 200px;
 }
 
 .card {
-    display: inline-block;
-    height: 350px;
-    background-color: rgb(159, 69, 69);
-    width: 250px;
     text-align: center;
+    height: 190px;
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(23, 191, 191);
+    margin: -1px;
+    padding: 10px;
+
 }
 
 .two {
-
-    background-color: rgb(58, 110, 87);
-
-
-
-
-}
-
-#big {
-    font-size: 40px;
     text-align: center;
-    font-weight: bolder;
+    height: 190px;
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(145, 17, 17);
+    padding: 10px;
 
 
 }
-
 .div {
     background-color: aquamarine;
     text-align: center;
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
     color: black;
-    font-size: 20px;
     margin: auto;
+    padding: 20px;
 
 
 }
