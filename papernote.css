@@ -1,0 +1,17 @@
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.center {
+    text-align: center;
+    background-color: azure;
+
+    color: rgb(16, 144, 129);
+    padding: 14px;
+    border: 8px solid black;
+    margin: auto;
+    width: 30%;
+}

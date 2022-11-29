@@ -14,35 +14,40 @@ h4 {
 }
 
 .maincontainer{
-    background-color: rgb(15, 220, 18);
-    height: 200px;
+    align-items: center;   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .card {
-    text-align: justify;
-    height: 210px;
-    width: 150px;
-    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    min-height: 300px;
+    height: auto;
+    width: 200px;
     background-color: rgb(23, 191, 191);
     margin: -1px;
     padding: 10px; 
 
 }
 
-.two {
-    text-align: justify;
-    /* height: 200px; */
-    width: 150px;
-    display: inline-block;
-    background-color: rgb(145, 17, 17);
-    padding: 10px;
-
-
+.cardtwo {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    min-height: 300px;
+    height: auto;
+    width: 200px;
+    background-color: rgb(10, 139, 29);
+    margin: -1px;
+    padding: 10px; 
 }
 .div {
     background-color: aquamarine;
     text-align: center;
-    width: 300px;
+    width: 400px;
     height: 100px;
     color: black;
     margin: auto;
