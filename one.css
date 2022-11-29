@@ -23,13 +23,15 @@ h4 {
 .card {
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     min-height: 300px;
     height: auto;
     width: 200px;
     background-color: rgb(23, 191, 191);
     margin: -1px;
     padding: 10px; 
+    font-size: 16px;
+    font-weight: bold;
 
 }
 
@@ -43,6 +45,7 @@ h4 {
     background-color: rgb(10, 139, 29);
     margin: -1px;
     padding: 10px; 
+    font-weight: bold;
 }
 .div {
     background-color: aquamarine;
@@ -52,6 +55,16 @@ h4 {
     color: black;
     margin: auto;
     padding: 20px;
-
-
+}
+#bold{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    
+}
+#big{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    
 }
