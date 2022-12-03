@@ -78,7 +78,7 @@ a {
 
 }
 
-.two, a:hover {
+    .Maincontainer a:hover {
 	transition: all 0.5s ease;
 	color: #870ae7;
 	padding-left: 8px;
@@ -104,27 +104,21 @@ a {
 
 .bottom {
 	background-color: darkseagreen;
+	transition: none;
 
-}
-
-nav {
-	/* margin: 12px; */
 }
 
 nav a {
 	display: inline-block;
 	text-align: center;
-	margin: 14px;
+	margin: 12px;
 	width: 250px;
 	text-decoration: none;
 }
 
 nav a:not(:last-child) {
-
-	border-right: 4px solid
-}
-
-:not(.bottom)
-{
 	transition: none;
+    border-right: 4px solid;
+	
+
 }
