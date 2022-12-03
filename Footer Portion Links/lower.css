@@ -46,7 +46,6 @@ h2 {
 	text-decoration: none;
 	width: auto;
 	margin: -2px;
-	;
 	font-size: larger;
 	height: auto;
 	padding: 4px;
@@ -79,7 +78,7 @@ a {
 
 }
 
-a:hover {
+.two, a:hover {
 	transition: all 0.5s ease;
 	color: #870ae7;
 	padding-left: 8px;
@@ -98,10 +97,10 @@ a:hover {
 	color: #f30a0a
 }
 
-.links a:hover {
+/* .links a:hover {
 	color: #0404f4;
 
-}
+} */
 
 .bottom {
 	background-color: darkseagreen;
@@ -125,6 +124,7 @@ nav a:not(:last-child) {
 	border-right: 4px solid
 }
 
-#Hit {
-	transition: 0;
+:not(.bottom)
+{
+	transition: none;
 }
