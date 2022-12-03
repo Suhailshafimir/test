@@ -1,0 +1,71 @@
+/* .head{
+	background-color: lightgrey;
+} */
+h1,h2{
+	color: black;
+	text-align: center;
+	text-transform: capitalize;
+
+}
+.Maincontainer{
+	background-color: rgb(146, 154, 156);
+	padding: 50px;
+
+}
+
+.One ,.two,.three,.four,.five{
+	/* background-color: rgb(39, 154, 134); */
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+	width: auto;
+	margin: -2px;;
+	font-size: larger;
+	height: auto;
+	padding: 4px;
+	width: 500px;
+	text-transform: capitalize;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+	
+
+}
+h3{
+
+color: rgb(17, 16, 16);
+text-align: justify;
+margin: 14px;
+list-style: none;
+}
+li,ul,a{
+	list-style:None;
+	text-decoration: none;
+	text-align:justify;
+	font-size: 20px;
+	color: rgb(32, 31, 31);
+	
+}
+ a:hover{
+	transition: all 0.5s ease;
+	color: #870ae7;
+	padding-left: 8px;
+}
+
+.links .a {
+
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #f30a0a}
+
+.links a:hover{
+	color: #0404f4;
+	
+}

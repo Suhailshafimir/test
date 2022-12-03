@@ -67,4 +67,33 @@ h4 {
     color: blue;
     font-weight: bold;
     
+} 
+#water{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    
+}
+#thick{
+    /* height:5px;
+    background-color: rgb(45, 94, 78);
+    margin: auto;
+    width: 80%;
+    justify-content: center; */
+    
+
+    border-top:4px solid ;
+    
+
+}
+.vl {
+    border:3px solid rgb(48, 112, 48);
+    height: 100px;
+ 
+   position:absolute;
+   right: 50%;
+}
+#www{
+    font-size: 12px;
+    letter-spacing: 5px;
 }
