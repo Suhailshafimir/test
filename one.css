@@ -43,9 +43,11 @@ h4 {
     height: auto;
     width: 200px;
     background-color: rgb(10, 139, 29);
-    margin: -1px;
+    margin:3px;
     padding: 10px; 
     font-weight: bold;
+    border-left: 4px solid black;
+
 }
 .div {
     background-color: aquamarine;
