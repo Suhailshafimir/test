@@ -1,0 +1,49 @@
+.bold{
+    border: 1px solid rgb(36, 36, 35);
+    height: 100px;
+    background-color: rgb(241, 245, 246);
+    position:sticky;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   top: 0px;
+}
+
+   h3{
+      margin-right: 15px;
+      margin-bottom: 15px;
+
+   } 
+    
+    
+     
+     .box{
+        border: 2px solid rgb(0, 0, 0);
+        height: 50%;
+        width: 50%;
+        align-items: center;
+       
+        margin-top: 0px;
+        border-radius: 5px;
+     }
+     #search{
+        color: aqua;
+        margin-bottom: 30px;
+        background-color: rgb(255, 255, 255);
+        height: 40px;
+        width: 100px;
+         border-radius: 10px;
+        margin-left: 40px;
+        margin-top: 30px;
+     }
+
+     #search:hover{
+text-transform: capitalize;
+color: white;
+background-color: rgb(78, 65, 222);
+cursor: crosshair;
+}
+#search:active{
+background-color: red;
+border: 5px solid black;
+}

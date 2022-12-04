@@ -1,0 +1,44 @@
+.navBox{
+    position: sticky;
+    top: 10px;
+    border: 1px solid red;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(201, 233, 146);
+    justify-content: center;
+    align-items: left;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.textbox{
+    margin-left: 10px;
+    height: 50%;
+    width: 100%;
+    font-size: larger;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 5px;
+
+}
+.btn{
+    height: 70%;
+    border: 3px solid rgb(13, 0, 255);
+    border-radius: 17px;
+    width: 10%;
+    background-color: rgb(240, 240, 114);
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(78, 65, 222);
+}
+.btn:active{
+    background-color: red;
+    border: 5px solid black;
+}
