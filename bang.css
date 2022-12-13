@@ -1,0 +1,153 @@
+.Main {
+    background-color: black;
+    color: white;
+}
+
+nav {
+
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+
+.Main a {
+    text-decoration: None;
+    color: white;
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 3px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    word-spacing: 20px;
+}
+
+li {
+    word-spacing: 15px;
+}
+
+.Kazi {
+
+    height: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.photo {
+    float: right;
+    margin: 20px;
+
+}
+
+.del {
+    padding-left: 40px;
+}
+
+.buttons {
+    text-align: center;
+    word-spacing: 10px;
+    padding: 2px;
+}
+
+.F {
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+}
+
+.Y {
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+}
+
+.W {
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+}
+
+.love {
+    height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 45px;
+
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.Group {
+    display: grid;
+    width: 220px;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 180px;
+}
+
+.Group>div {
+    width: 210px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.Group h2 {
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.Group h4 {
+    font-size: 12px;
+    margin-top: -6px;
+}
+
+.Group p {
+    margin-bottom: -7px;
+}
+
+.bullet {
+    display: flex;
+    grid-template-columns: auto auto;
+}
+
+.bullet>div {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+nav>div {
+    display: inline-block;
+    text-align: center;
+    width: 410px;
+
+}
+
+nav div:not(:last-child) {
+    transition: none;
+    border-right: 1px solid;
+}
+.low{
+    background-color:black;
+    color: white;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
