@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+}
+
+
+header {
+    background-image: url("shutterstock_348320018@2x.png");
+    height: 600px;
+    width: 98%;
+    background-size: cover;
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Nav items login and create accout? */
+.login {
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.login li {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    
+}
+
+.modify {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 3px;
+    margin: 4px;
+}
+.text-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* -------LOGO-------- */
+.logo{
+   font: bolder;
+   font-size: 60px;
+   font-weight: 800;
+   color: red;
+   margin: auto;
+   border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding-top: 2px;
+ 
+
+}
+.Container-logo-heading{
+    padding-top: 17%;
+}
+
+.heading{
+    color: white;
+font-size: 40px;
+font-weight: 600;
+font: bolder;
+
+}
+/* select box and search bar */
+.bars{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 40px; */
+
+}
+.select{
+    height: 45px;
+    width: 180px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.text{
+    height: 45px;
+    width: 291px;
+    margin: 30px; 
+    border-radius: 10px;
+}
+/*  card heading */
+
+.Headcard {
+    margin-left: 60px;
+    font-style: bold;
+    margin-top: 80px;
+}
+.media{
+    display: flex;
+}
+/* cards------------------------------------------ */
+.cardmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.one{
+    width: 350px;
+    height: 135px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 10px;
+    
+}
+.subdiv{
+    text-align: left;
+    margin-left: 6px;
+}
+/* footer portion---------------------------------------------------------------- */
+.foot{
+    font-size:17px;
+    font-weight: 250;
+    text-align: center;
+   
+}
+.follow>a{
+    padding: 10px;
+}
+.icons{ text-align: center;
+    font-size: 50px;   
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none; 
+    
+}
+.icons>a>i{
+    border: 2px solid rgb(43, 41, 41); 
+    border-radius: 50%;
+    padding: 8px;
+    
+}
+.icons>a{
+    text-decoration: none;
+}
+/* three lists----------------------------------------------------- */
+.Mainlist{
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+   align-items: center;
+   color: black;
+   justify-content: center;
+   height: auto;
+}
+.list>li>a{
+    color: rgb(30, 30, 31);
+    list-style: none;
+    font-size: 15px;
+    padding: 4px;
+    font-size: 24px;
+}
+.list>li{
+    padding: 2px;
+}
+.vlist>.list{
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+.Mainlist>.vlist{
+    width: 210px;
+    padding-left: 50px;
+    min-height: 400px;
+
+}
+.list>a{
+    text-decoration: none;
+    list-style: none;
+    }
+
+/* Media query--------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .bars { display: flex;
+        flex-direction: column;
+        margin: 5px;
+    text-align: right;
+       
+
+      
+    }
+   .Mainlist{
+    display: flex;
+    flex-direction: column;
+   }
+  }
